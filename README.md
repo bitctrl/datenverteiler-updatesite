@@ -10,5 +10,5 @@ Bauen und Veröffentlichen
 
     install
 
-Im Ordner `target` wird damit die Updateseite `kernsoftware.site-{Version}.zip`
-erstellt.
+Im Ordner `target` wird damit die Updateseite
+`SWE_{Name}_{Status}_V{Version}_D{Standdatum}.zip` erstellt.
