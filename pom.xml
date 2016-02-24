@@ -164,6 +164,26 @@
             <artifactId>de.bsvrz.sys.funclib.filelock</artifactId>
             <version>${kernsoftware.version}</version>
         </dependency>
+        <dependency>
+            <groupId>de.bsvrz.sys</groupId>
+            <artifactId>de.bsvrz.sys.funclib.hexdump</artifactId>
+            <version>${kernsoftware.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>de.bsvrz.sys</groupId>
+            <artifactId>de.bsvrz.sys.funclib.kappich</artifactId>
+            <version>${kernsoftware.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>de.bsvrz.sys</groupId>
+            <artifactId>de.bsvrz.sys.funclib.losb</artifactId>
+            <version>${kernsoftware.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>de.bsvrz.sys</groupId>
+            <artifactId>de.bsvrz.sys.funclib.operatingMessage</artifactId>
+            <version>${kernsoftware.version}</version>
+        </dependency>
     </dependencies>
 
     <build>
