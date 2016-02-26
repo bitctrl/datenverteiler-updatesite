@@ -184,6 +184,26 @@
             <artifactId>de.bsvrz.sys.funclib.operatingMessage</artifactId>
             <version>${kernsoftware.version}</version>
         </dependency>
+        <dependency>
+            <groupId>de.bsvrz.sys</groupId>
+            <artifactId>de.bsvrz.sys.funclib.timeout</artifactId>
+            <version>${kernsoftware.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>de.bsvrz.sys</groupId>
+            <artifactId>de.bsvrz.sys.funclib.xmlSupport</artifactId>
+            <version>${kernsoftware.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>de.kappich</groupId>
+            <artifactId>de.kappich.pat.configBrowser</artifactId>
+            <version>${kernsoftware.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>de.kappich</groupId>
+            <artifactId>de.kappich.pat.gnd</artifactId>
+            <version>${kernsoftware.version}</version>
+        </dependency>
     </dependencies>
 
     <build>
