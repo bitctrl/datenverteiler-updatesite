@@ -204,6 +204,11 @@
             <artifactId>de.kappich.pat.gnd</artifactId>
             <version>${kernsoftware.version}</version>
         </dependency>
+        <dependency>
+            <groupId>de.kappich</groupId>
+            <artifactId>de.kappich.puk.param</artifactId>
+            <version>${kernsoftware.version}</version>
+        </dependency>
     </dependencies>
 
     <build>
