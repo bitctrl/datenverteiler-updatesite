@@ -209,6 +209,26 @@
             <artifactId>de.kappich.puk.param</artifactId>
             <version>${kernsoftware.version}</version>
         </dependency>
+        <dependency>
+            <groupId>de.kappich</groupId>
+            <artifactId>de.kappich.samples.operatingMessage</artifactId>
+            <version>${kernsoftware.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>de.kappich</groupId>
+            <artifactId>de.kappich.sys.funclib.profile</artifactId>
+            <version>${kernsoftware.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>de.kappich</groupId>
+            <artifactId>de.kappich.tools.sleep</artifactId>
+            <version>${kernsoftware.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>de.kappich</groupId>
+            <artifactId>de.kappich.vew.bmvew</artifactId>
+            <version>${kernsoftware.version}</version>
+        </dependency>
     </dependencies>
 
     <build>
