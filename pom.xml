@@ -6,7 +6,7 @@
 
     <groupId>com.github.datenverteiler</groupId>
     <artifactId>datenverteiler-updatesite</artifactId>
-    <version>3.6.5</version>
+    <version>1.0.0</version>
     <packaging>pom</packaging>
 
     <name>Datenverteiler-Updateseite</name>
