@@ -1,8 +1,8 @@
-Kernsoftware-Updateseite v${project.version} [![Build Status](https://travis-ci.org/datenverteiler/kernsoftware.site.svg?branch=master)](https://travis-ci.org/datenverteiler/kernsoftware.site)
-================================
+Datenverteiler-Updateseite v${project.version} [![Build Status](https://travis-ci.org/datenverteiler/datenverteiler-updatesite.svg?branch=develop)](https://travis-ci.org/datenverteiler/datenverteiler-updatesite)
+=================================
 
-Eine Updateseite mit den Distributionspaketen der Kernsoftware für Eclipse,
-Rahmenwerk und andere OSGi-Frameworks.
+Eine Updateseite mit Datenverteiler-Software für Eclipse, Rahmenwerk und andere
+OSGi-Frameworks.
 
 
 Bauen und Veröffentlichen
