@@ -1,4 +1,4 @@
-Datenverteiler-Updateseite v${project.version} [![Build Status](https://travis-ci.org/datenverteiler/datenverteiler-updatesite.svg?branch=develop)](https://travis-ci.org/datenverteiler/datenverteiler-updatesite)
+Datenverteiler-Updateseite v${project.version} [![Build Status](https://travis-ci.org/datenverteiler/datenverteiler-updatesite.svg?branch=master)](https://travis-ci.org/datenverteiler/datenverteiler-updatesite)
 =================================
 
 Eine Updateseite mit Datenverteiler-Software für Eclipse, Rahmenwerk und andere
