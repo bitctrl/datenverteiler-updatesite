@@ -1,4 +1,7 @@
-Datenverteiler-Updateseite v${project.version} [![Build Status](https://travis-ci.org/datenverteiler/datenverteiler-updatesite.svg?branch=develop)](https://travis-ci.org/datenverteiler/datenverteiler-updatesite)
+[![Build Status](https://travis-ci.org/datenverteiler/datenverteiler-updatesite.svg?branch=develop)](https://travis-ci.org/datenverteiler/datenverteiler-updatesite)
+[![Build Status](https://api.bintray.com/packages/datenverteiler/maven/datenverteiler-updatesite/images/download.svg)](https://bintray.com/datenverteiler/maven/datenverteiler-updatesite)
+
+Datenverteiler-Updateseite v${project.version}
 =================================
 
 Eine Updateseite mit Datenverteiler-Software für Eclipse, Rahmenwerk und andere
