@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -13,12 +13,11 @@
     <description>
         Eine Updateseite mit Datenverteiler-Software für Eclipse, Rahmenwerk und andere OSGi-Frameworks.
     </description>
-    <url>http://datenverteiler.github.io/${project.artifactId}/</url>
 
     <properties>
         <tycho.version>0.24.0</tycho.version>
         <maven.build.timestamp.format>yyyy-MM-dd</maven.build.timestamp.format>
-        <kernsoftware.version>3.6.5</kernsoftware.version>
+        <kernsoftware.version>3.9.1</kernsoftware.version>
         <distributionspaket.status>BETA</distributionspaket.status>
         <distributionspaket.standDatum>${maven.build.timestamp}</distributionspaket.standDatum>
     </properties>
@@ -39,19 +38,19 @@
     </developers>
 
     <scm>
-        <connection>scm:git:https://github.com/datenverteiler/${project.artifactId}.git</connection>
-        <developerConnection>scm:git:https://github.com/datenverteiler/${project.artifactId}.git</developerConnection>
-        <url>https://github.com/datenverteiler/${project.artifactId}</url>
+        <connection>scm:git:https://github.com/bitctrl/${project.artifactId}.git</connection>
+        <developerConnection>scm:git:https://github.com/bitctrl/${project.artifactId}.git</developerConnection>
+        <url>https://github.com/bitctrl/${project.artifactId}</url>
     </scm>
 
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/datenverteiler/${project.artifactId}/</url>
+        <url>https://github.com/bitctrl/${project.artifactId}/</url>
     </issueManagement>
 
     <ciManagement>
         <system>Travis-CI</system>
-        <url>https://travis-ci.org/datenverteiler/${project.artifactId}/</url>
+        <url>https://travis-ci.org/bitctrl/${project.artifactId}/</url>
     </ciManagement>
 
     <profiles>
@@ -67,7 +66,7 @@
                     </snapshots>
                     <id>bintray-datenverteiler-maven</id>
                     <name>bintray</name>
-                    <url>http://dl.bintray.com/datenverteiler/maven</url>
+                    <url>http://dl.bintray.com/bitctrl/maven</url>
                 </repository>
             </repositories>
             <pluginRepositories>
@@ -77,14 +76,14 @@
                     </snapshots>
                     <id>bintray-datenverteiler-maven</id>
                     <name>bintray-plugins</name>
-                    <url>http://dl.bintray.com/datenverteiler/maven</url>
+                    <url>http://dl.bintray.com/bitctrl/maven</url>
                 </pluginRepository>
             </pluginRepositories>
             <distributionManagement>
                 <repository>
-                    <id>bintray-datenverteiler-maven</id>
+                    <id>bintray-bitctrl-maven</id>
                     <name>datenverteiler-maven</name>
-                    <url>https://api.bintray.com/maven/datenverteiler/maven/${project.artifactId}/;publish=1</url>
+                    <url>https://api.bintray.com/maven/bitctrl/maven/${project.artifactId}/;publish=1</url>
                 </repository>
             </distributionManagement>
         </profile>
